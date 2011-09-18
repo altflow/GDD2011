@@ -1,0 +1,18 @@
+{
+  "name": "ChromeExtensionWebGameSolver",
+  "version": "1.0",
+  "description": "Solving the concentration game",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://gdd-2011-quiz-japan.appspot.com/webgame/problem*"
+      ],
+      "js": [
+        "jquery-1.6.2.min.js",
+        "solver.js"
+      ]
+    }
+  ],
+  "permissions": [
+  ]
+}
